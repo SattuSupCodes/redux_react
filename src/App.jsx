@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import './App.css'
 import CounterComponent from './components/CounterComponent'
 import EffectComponent from './components/Effect'
+import Timer from './components/Timer'
 function App() {
   const [count, setCount] = useState(0)
   const[isVisible, setVisible] = useState(true)
@@ -14,6 +15,7 @@ function App() {
     {/* <EffectComponent></EffectComponent> */}
     {isVisible?<EffectComponent/> :<></>}
     <button onClick={() => setVisible(!isVisible)}>Toggle</button>
+    <Timer></Timer>
     </>
   )
 }
