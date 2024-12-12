@@ -12,7 +12,7 @@ const CounterComponent = () => {
            <h1>Number is {count%2===0 ? "Even" : "Odd"}</h1>
            <button onClick={() => setCount(count + 1)}>increment</button>
            <button onClick={() => setCount(count - 1)}>decrement</button>
-           <button onClick={()=> setValue()}>odd/even</button>
+           {/* <button onClick={()=> setValue()}>odd/even</button> */}
            
         </div>
     );
