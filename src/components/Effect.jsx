@@ -5,6 +5,13 @@ const EffectComponent = () =>{
     useEffect(() => {
         console.log("I am mounting...")
     }, []);
+
+    return (
+        <div>
+            <p>Count is {count}</p>
+            <button>Update</button>
+        </div>
+    )
 }
 
 export default EffectComponent;
