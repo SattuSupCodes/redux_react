@@ -9,7 +9,7 @@ const EffectComponent = () =>{
     return (
         <div>
             <p>Count is {count}</p>
-            <button>Update</button>
+            <button onClick={() => setCount(count + 1) }>Update</button>
         </div>
     )
 }
