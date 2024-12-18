@@ -4,7 +4,7 @@ const EffectComponent = () =>{
     const [count, setCount] = useState(0);
     useEffect(() => {
         console.log("I am mounting...")
-    }, []);
+    }, [count]); //dependency on count
 
     return (
         <div>
