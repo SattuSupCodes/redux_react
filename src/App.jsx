@@ -4,10 +4,11 @@ import './App.css'
 import CounterComponent from './components/CounterComponent'
 import EffectComponent from './components/Effect'
 import Timer from './components/Timer'
+
 function App() {
   const [count, setCount] = useState(0)
   const[isVisible, setVisible] = useState(true)
-
+// lets get it starteddd
   return (
     <>
 
