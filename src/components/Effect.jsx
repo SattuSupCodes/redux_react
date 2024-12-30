@@ -15,3 +15,6 @@ const EffectComponent = () =>{
 }
 
 export default EffectComponent;
+// something gets triggered and as a side-effect something happens
+
+// this is use-effect functionhh
