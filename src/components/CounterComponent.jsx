@@ -15,7 +15,8 @@ const CounterComponent = () => {
            {/* <button onClick={()=> setValue()}>odd/even</button> */}
            
         </div>
-    );
+    ); 
 };
 
 export default CounterComponent;
+// i'm rewatching marvel movies in their correct order rn hehehe
